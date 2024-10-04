@@ -1,2 +1,2 @@
 # wohi-ex2
-exercises for Web Programming I
+Exercise 2 for Web Programming I
