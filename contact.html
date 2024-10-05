@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--menu--> 
+    <nav>
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html">Resumé</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <!--content-->
+    <main>
+    <section class="contact">
+        <h2>Contact Form</h2><br><br>
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter your age" min="1">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="You can leave a message here :&#41;"></textarea>
+            </div>
+            
+            <label>How did you know about my page?</label><br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="google" name="source" value="google">
+                <label class="form-check-label" for="google">Google</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="friend" name="source" value="friend">
+                <label class="form-check-label" for="friend">From a friend</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="linkedin" name="source" value="linkedin">
+                <label class="form-check-label" for="linkedin">From Linkedin</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="other" name="source" value="other">
+                <label class="form-check-label" for="other">Other</label>
+            </div>
+            <br>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    </main>
+</body>
+</html>

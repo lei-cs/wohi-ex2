@@ -1,0 +1,75 @@
+body {
+    background-color: #E7E8D1;
+}
+
+/* navbar */
+nav {
+    background-color: #A7BEAE;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;    
+}
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background: white;
+    color: #A7BEAE;
+}
+
+/* layout */
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
+
+main.hobbies ul {
+    text-align: center;
+}
+
+main.hobbies iframe {
+    display: block;
+    margin: 0 auto; /* Centers horizontally */
+}
+
+/* 
+main.mainPage {
+    margin-top: 10%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+ */
+
+/* index.html */
+div#infoCard {
+    background-color: #A7BEAE;
+}
+
+/* font */
+section {
+    font-family: "Source Code Pro", monospace;
+}
+
+h2 {
+    background-color: #A7BEAE;
+    display: inline;
+}
+
+
+
