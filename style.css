@@ -63,7 +63,7 @@ div#infoCard {
 
 /* font */
 section {
-    font-family: "Source Code Pro", monospace;
+    font-family: monospace; /* delete "Source Code Pro" */
 }
 
 h2 {
